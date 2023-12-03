@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/981a3dde3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div><img src="img/—Pngtree—sun with sunglasses_7515652.png" alt=""></div>
+        <h1>Awsome <span class="yellow">Weather</span></h1>
+        <div class="header-city">London 24˚C</div>
+        <div class="form-container">
+            <form action="">
+                <div>Enter The City:</div>
+                <div class="error-handler">
+                    <input type="text" name="city" id="city">
+                    <div class="error"></div>
+                </div>
+                <button id="city-btn" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #f2f2f2;"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <div id="Paris">Paris</div>
+            <div id="London">London</div>
+            <div id="Lissabon">Lissabon</div>
+            <div id="Kyiv">Kyiv</div>
+            <div id="Moscow">Moscow</div>
+            <div id="Prague">Prague</div>
+            <div id="Rome">Rome</div>
+            <div id="Copenhagen">Copenhagen</div>
+            <div id="Bucharest">Bucharest</div>
+            <div id="Berlin">Berlin</div>  
+            <div id="Madrid">Madrid</div>
+            <div id="Amsterdam">Amsterdam</div>
+            <div id="Athens">Athens</div>
+            <div id="Dublin">Dublin</div>
+            <div id="Liechtenstein">Liechtenstein</div>  
+            <div id="Istanbul">Istanbul</div>
+            <div id="Budapest">Budapest</div>
+            <div id="Niš">Niš</div>
+            <div id="Belgrade">Belgrade</div>
+        </div>
+        <div class="main-weather">
+            <div class="current-weather">
+                <div class="title">Current Weather</div>
+                <img id="cw-icon" src="" alt="">
+                <div class="cw-container">
+                    <div class="cw-temp">24˚C</div>
+                    <div class="cw-content">
+                        <h2 id="cw-city">London</h2>
+                        <div>Humidity: <span  id="cw-hum">59</span></div>
+                        <div>Wind: <span id="cw-wind">11.9</span>km/h</div>
+                        <div>Presure: <span id="cw-press">1003</span>mb</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hourly-weather">
+                <div class="title">Weather by hour</div>
+                <div class="hw-container"></div>
+            </div>
+            <div class="tomorrow-weather">
+                <div class="tomorrow">
+                    <div class="title">Tomorow</div>
+                    <div class="t-content"></div>
+                </div>
+                <div class="overmorrow">
+                    <div class="title">Overmorow</div>
+                    <div class="o-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
