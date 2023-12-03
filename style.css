@@ -62,7 +62,7 @@ input[type=text] {
 }
 .main{
     width: inherit;
-    background-image: url("background-a089d87ba11e1a4c45a8efa960b86092.jpg");
+    background-image: url("img/background-a089d87ba11e1a4c45a8efa960b86092.jpg");
     background-color: #cccccc;
     display: grid;
     grid-template-columns:auto auto;
